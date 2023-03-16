@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #979797;
+    padding: 1rem;
+
+    .nav-title {
+        color: #fff;
+    }
+
+    .nav-links ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin: 0 0.5rem;
+
+            a {
+                color: brown;
+            }
+        }
+    }
+}
